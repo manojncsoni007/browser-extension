@@ -9,6 +9,7 @@ const Home = () => {
   const time = new Date();
   const hour = time.getHours();
   const minute = time.getMinutes();
+  const minutes = minute / 10 < 1 ? `0${minute}` : minute;
 
   if (hour < 5) {
     greet = 'Good Night'
@@ -28,7 +29,7 @@ const Home = () => {
         </div>
         <div className="main-container">
           <div className="greeting">
-            <h1>{hour}:{minute}</h1>
+            <h1>{hour}:{minutes}</h1>
             <div>{greet}, {user}
             </div>
           </div>
