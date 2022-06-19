@@ -1,11 +1,11 @@
 import React from 'react'
 import './Home.css'
-import { Quote, Weather } from '../../Components';
-
+import { MainFocus, Quote, ToDo, Weather } from '../../Components';
 
 const Home = () => {
   let greet;
   let user = localStorage.getItem("userName");
+
   const time = new Date();
   const hour = time.getHours();
   const minute = time.getMinutes();
@@ -16,7 +16,7 @@ const Home = () => {
   } else if (hour < 12) {
     greet = 'Good Morning'
   } else if (hour < 16) {
-    greet = 'Good Evening'
+    greet = 'Good Afternoon'
   } else if (hour < 24) {
     greet = 'Good Evening'
   }
@@ -30,16 +30,13 @@ const Home = () => {
         <div className="main-container">
           <div className="greeting">
             <h1>{hour}:{minutes}</h1>
-            <div>{greet}, {user}
-            </div>
+            <p>{greet}, {user}</p>
           </div>
-          <div className="focus">
-            <p>What is your main focus for today?</p>
-            <input type="text" />
-          </div>
+          <MainFocus />
         </div>
         <div className="quote-container">
           <Quote />
+          <ToDo />
         </div>
       </div>
     </>
