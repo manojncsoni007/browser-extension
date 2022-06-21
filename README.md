@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+<h1 align="center">AEMS FOCUS </h1>
+ 
+### What is Aems Focus?
+	
+Aems Focus is an interactive browser extension that helps you efficiently organise your daily tasks and set a focus for the day. It displays vital information like weather based on the current location, quote for the day, etc.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### FEATURES
+- User have to enter name and it shows greeting messege with user name.
+- Displays weather depending on the current location of the user.
+- Displays current time, city, temperature, and weather in sync
+- User can add a main focus for the day and the user edit the current item to a new item upon completion.
+- Users can add todo activities/tasks and delete them on completion
+- The background image is new on every refresh with a motivating quote.
+- All the user data is stored in local storage
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/64492646/173975939-7bd84510-c34f-40c1-92fa-b45572483bc0.png)
+![image](https://user-images.githubusercontent.com/64492646/173976101-f3b0db4c-597d-4f4d-87cd-2ca7c571f222.png)
+![image](https://user-images.githubusercontent.com/64492646/174358414-cd83675d-5039-4c07-9209-a76dba623f25.png)
+![image](https://user-images.githubusercontent.com/64492646/174495296-265501bc-6bcf-484c-ba9b-7c29c4ff4f7b.png)
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
