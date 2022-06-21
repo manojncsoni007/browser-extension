@@ -7,9 +7,8 @@ const Quote = () => {
 
     const getQuote = async () => {
         try {
-            const response = await axios.get('https://type.fit/api/quotes');
-            setQuoteText(response.data[Math.floor(Math.random() * 1600)].text)
-            console.log(response);
+            const response = await axios.get("https://api.quotable.io/random?maxLength=100");
+            setQuoteText(response.data.content);
         } catch (error) {
             console.log(error);
         }
